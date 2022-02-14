@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output"> 
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two">=</button>
+    </div>
+    <footer class="main-page-footer" aria-label="Footer">
+        <nav role="navigation">
+            <a href="#">About</a>
+            <a href="#">Help Center</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Ads Info</a>
+            <a href="#">Blog</a>
+            <a href="#">Status</a>
+            <a href="#">Careers</a>
+            <a href="#">Brand Resources</a>
+            <a href="#">Advertising</a>
+            <a href="#">Marketing</a>
+            <a href="#">Contact for Business</a>
+            <a href="#">Developers</a>
+            <a href="#">Directory</a>
+            <a href="#">Settings</a>
+        </nav>
+    </footer>
+    <div class="container">
+        <span id='1' onclick="color(this)" class='color clr1'></span>
+        <span id='2' onclick="color(this)" class='color clr2'></span>
+        <span onclick="color(this)" class='color clr3'></span>
+        <span onClick="color(this)" class='color clr4'></span>
+       </div>
+</body>
+</html>
